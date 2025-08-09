@@ -1,0 +1,1 @@
+Place your JSON payload files (.json) here. The script `npm run process-payloads` will read this folder and insert/update messages.
