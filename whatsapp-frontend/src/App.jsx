@@ -22,7 +22,7 @@ function App() {
   };
 
   // Define the API URL as a hardcoded string to avoid the 'import.meta' warning.
-  const apiUrl = 'https://whatsapp-web-clone-dl5j.onrender.com';
+  const apiUrl = import.meta.env.VITE_API_URL;
 
   useEffect(() => {
     const fetchConversations = async () => {
